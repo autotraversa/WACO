@@ -3,6 +3,6 @@
   collections:
     - arubanetworks.aoscx
   tasks:
-    - name: Retrieve all information from the device and save into a variable "facts_output"
+    - name: Retrieve all 
       aoscx_command:
       commands: ['show run | in hostname']
