@@ -7,4 +7,4 @@
   tasks:
     - name: Retrieve all 
       aoscx_command:
-        commands: ['show run']
+        commands: ['show system']
