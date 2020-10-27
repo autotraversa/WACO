@@ -5,4 +5,4 @@
   tasks:
     - name: Retrieve all 
       aoscx_command:
-      commands: ['show run | in hostname']
+        commands: ['show run | in hostname']
