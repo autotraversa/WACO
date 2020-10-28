@@ -8,6 +8,6 @@
   tasks:
     - name: Check version
       aoscx_command:
-        commands: 'show version'
-          
-        
+        commands:
+          - show interface mgmt
+          - show version
