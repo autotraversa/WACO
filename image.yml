@@ -11,4 +11,4 @@
         commands:
           - copy primary secondary
           - y
-          - show images
+          - show images | in Version
