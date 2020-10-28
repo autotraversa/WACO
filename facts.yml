@@ -1,0 +1,10 @@
+- name: DEVICE SPECIFIC
+  hosts: WFM_FHC_MDF_CORE1
+  collections:
+    - arubanetworks.aoscx
+  vars:
+    - ansible_connection: network_cli
+  tasks:
+    - name: Retrieve all 
+      aoscx_command:
+        commands: ['show system']

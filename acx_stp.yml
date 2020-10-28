@@ -1,6 +1,6 @@
 ---
 - name: STP
-  hosts: WFM_FHC_MDF_CORE1
+  hosts: all
   collections:
     - arubanetworks.aoscx
   vars:
@@ -24,7 +24,7 @@
           - spanning-tree priority 1
 
 - name: BPDU_GUARD
-  hosts: WFM_FHC_MDF_CORE1
+  hosts: all
   collections:
     - arubanetworks.aoscx
   vars:

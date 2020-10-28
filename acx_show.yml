@@ -1,6 +1,6 @@
 ---
 - name: show
-  hosts: acx_switch
+  hosts: all
   collections:
     - arubanetworks.aoscx
   vars:
