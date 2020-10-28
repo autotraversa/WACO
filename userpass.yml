@@ -1,12 +1,12 @@
 ---
-- name: STP
+- name: UsernamePassword
   hosts: all
   collections:
     - arubanetworks.aoscx
   vars:
     - ansible_connection: network_cli
   tasks:
-    - name: STP
+    - name: UsernamePassword
       aoscx_config:
         lines:
           -  user admin group administrators password plaintext Pr0curve
