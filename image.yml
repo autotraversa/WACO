@@ -1,0 +1,14 @@
+---
+- name: show
+  hosts: all
+  collections:
+    - arubanetworks.aoscx
+  vars:
+    - ansible_connection: network_cli
+  tasks:
+    - name: Check version
+      aoscx_command:
+        commands:
+          - copy primary secondary
+          - y
+          - show images
