@@ -1,6 +1,6 @@
 ---
 - name: show
-  hosts: acx_switch
+  hosts: all
   collections:
     - arubanetworks.aoscx
   vars:
@@ -9,5 +9,3 @@
     - name: Check version
       aoscx_command:
         commands: 'show version'
-          
-        
