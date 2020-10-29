@@ -1,4 +1,4 @@
-- hosts: 10.101.2.140
+- hosts: 127.0.0.1
   vars_files:
     snmp_location: traversa 
   tasks:
