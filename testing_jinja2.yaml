@@ -3,6 +3,6 @@
     snmp_location: traversa 
   tasks:
     - name: JINJA TEST 1
-    template:
-      src: jinja_temp.j2
-      dest: my.cnf
+      template:
+        src: jinja_temp.j2
+        dest: my.cnf
