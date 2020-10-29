@@ -1,5 +1,5 @@
 - hosts: 127.0.0.1
-  vars_files:
+  vars:
     snmp_location: traversa 
   tasks:
     - name: JINJA TEST 1
