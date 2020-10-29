@@ -5,4 +5,4 @@
     - name: JINJA TEST 1
       template:
         src: jinja_temp.j2
-        dest: my.cnf
+        dest: /etc/ansible/my.cnf
